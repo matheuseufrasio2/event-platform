@@ -24,6 +24,8 @@ module.exports = {
     'react/prop-types': 'off',
     'react/jsx-filename-extension': 'off',
     'import/prefer-default-export': 'off',
+    'jsx-a11y/anchor-is-valid': 'off', // TODO: apagar depois que os links estiverem validos
+    'max-len': 1,
   },
   overrides: [
     {
