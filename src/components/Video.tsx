@@ -43,6 +43,7 @@ export function Video({ lessonSlug }: Props) {
     variables: {
       slug: lessonSlug,
     },
+    fetchPolicy: 'no-cache',
   });
 
   if (!data) {
